@@ -16,20 +16,6 @@ The **Automated Question Generator (AQG)** is a Streamlit-based web application 
 - 🧠 **Iterative & Modular Design** – Supports continuous improvement based on user feedback.
 - 🖥️ **User-Friendly Interface** – Built using **Streamlit** for quick deployment and ease of use.
 
----
-
-## 🔄 System Workflow
-
-1. **Initiation:** User opens the AQG web application.
-2. **Upload PDF:** User uploads a document from which questions will be generated.
-3. **Extract Text:** The system uses `PyPDF2` to extract raw text from the PDF.
-4. **Text Preprocessing:** Removes unwanted characters and formatting issues.
-5. **Summarization:** A pre-trained **BART** model summarizes the cleaned text.
-6. **Question Generation:**
-   - **One-word answers** (e.g. definitions, key terms)
-   - **Sentence answers** (e.g. conceptual or descriptive)
-7. **Display Questions:** Questions are generated and shown based on selected type.
-8. **Repeat or Exit:** Users can download the questions or start over with a new document.
 
 ---
 
@@ -45,13 +31,23 @@ The **Automated Question Generator (AQG)** is a Streamlit-based web application 
 
 ## 🎓 Use Cases
 
-- 📚 Students preparing for exams or quizzes
-- 🧑‍🏫 Teachers generating quick assessment questions
-- 📑 Researchers reviewing lengthy papers
+- 📚 Students preparing for exams or quizzes  
+- 🧑‍🏫 Teachers generating quick assessment questions  
+- 📑 Researchers reviewing lengthy papers  
 - 📊 Professionals needing quick comprehension of technical documents
 
+---
 
+## 🎥 Working Prototype Video
 
+▶️ [Watch on Google Drive](https://drive.google.com/file/d/1wX2TxBFTJ4wQelOiRQnpLdQ-U6jdfHmi/view?usp=sharing)
 
+---
 
+## 🛠 Installation & Setup
 
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/PremPanchal1224/Automated-Question-Answer-Generator.git
+cd Automated-Question-Answer-Generator
