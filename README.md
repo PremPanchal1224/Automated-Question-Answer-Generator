@@ -1,4 +1,4 @@
-# 📘 Automated Question-Answer Generation (AQG)
+# 📘 Automated Question Generation (AQG)
 
 The **Automated Question Generator (AQG)** is a Streamlit-based web application that intelligently extracts, summarizes, and generates meaningful questions from uploaded PDF documents. It is built to assist students, educators, and professionals by simplifying the process of information retrieval and review using advanced natural language processing techniques.
 
